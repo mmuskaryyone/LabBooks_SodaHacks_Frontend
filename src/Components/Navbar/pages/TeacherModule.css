@@ -1,0 +1,92 @@
+/* General styles for the module container */
+.module-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+/* Styles for button group */
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styles for block container */
+.block-container {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Styles for block header */
+.block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Styles for block index */
+.block-index {
+  font-weight: bold;
+}
+
+/* Styles for block actions */
+.block-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Styles for update button */
+.update-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: darkblue;
+}
+
+/* Styles for publish button */
+.publish-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.publish-button:hover {
+  background-color: darkgreen;
+}
+
+/* Styles for delete button */
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+/* Styles for page actions */
+.page-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
