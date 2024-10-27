@@ -2,135 +2,136 @@
     display: flex;
     min-height: 100vh;
     font-family: Arial, sans-serif;
-  }
-  
-  /* Sidebar styling */
-  .textbook-sidebar {
+    background-color: #F7ECE1; /* Set background color here */
+}
+
+/* Sidebar styling */
+.textbook-sidebar {
     width: 300px;
     padding: 20px;
-    background-color: #4fc3f7;
+    background-color: #9067C6;
     color: white;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .sidebar-title {
+}
+
+.sidebar-title {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
-  }
-  
-  .sidebar-info {
+}
+
+.sidebar-info {
     font-size: 14px;
     margin-top: 10px;
-  }
-  
-  .sidebar-info label {
+}
+
+.sidebar-info label {
     font-weight: bold;
     margin-right: 5px;
-  }
-  
-  /* Container for the course content */
-  .textbook-container {
+}
+
+/* Container for the course content */
+.textbook-container {
     flex: 1;
     padding: 20px;
-    background-color: #f7f7f7;
-  }
-  
-  .section-header {
+    background-color: #f7f7f7; /* You can change this if you want it to match */
+}
+
+.section-header {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
-  }
-  
-  /* Each section box */
-  .textbook-section {
-    background-color: #e3e4e6;
+}
+
+/* Each section box */
+.textbook-section {
+    background-color: #CAC4CE;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .section-content {
+}
+
+.section-content {
     max-width: 70%;
-  }
-  
-  .section-title {
+}
+
+.section-title {
     font-size: 18px;
     color: #333;
     margin-bottom: 5px;
-  }
-  
-  .section-description {
+}
+
+.section-description {
     font-size: 14px;
     color: #666;
-  }
-  
-  .progress-bar {
+}
+
+.progress-bar {
     width: 100px;
     height: 10px;
-    background-color: #e0e0e0;
+    background-color: #8D86C9;
     border-radius: 5px;
     overflow: hidden;
     margin-top: 10px;
-  }
-  
-  .progress {
+}
+
+.progress {
     height: 100%;
-    background-color: #76c7c0;
+    background-color: #8D86C9;
     transition: width 0.3s;
-  }
-  
-  .textbook-video {
+}
+
+.textbook-video {
     width: 100%;
     max-width: 500px;
     height: 280px;
     border-radius: 5px;
     margin-top: 10px;
-  }
-  
-  .completion-status {
+}
+
+.completion-status {
     font-size: 12px;
     font-weight: bold;
     color: #333;
-  }
+}
 
-  .view-module-button {
+.view-module-button {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #4fc3f7;
+    background-color: #8D86C9;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
     transition: background-color 0.3s;
-  }
-  
-  .view-module-button:hover {
-    background-color: #2196f3;
-  }
-  .module-page {
+}
+
+.view-module-button:hover {
+    background-color: #242038;
+}
+
+.module-page {
     padding: 20px;
-    background-color: #f7f7f7;
-  }
-  
-  .module-image {
+    background-color: #F7ECE1; /* This will keep the module page background */
+}
+
+.module-image {
     width: 100%;
     max-width: 600px;
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
-  }
-  
-  .module-content {
+}
+
+.module-content {
     margin-top: 20px;
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-  }
-    
+}

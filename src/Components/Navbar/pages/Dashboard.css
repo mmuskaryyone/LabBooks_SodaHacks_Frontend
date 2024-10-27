@@ -3,21 +3,26 @@
 .dashboard {
     padding: 20px;
     background-color: #f1f3f4;
-  }
-  
-  .dashboard-title {
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.dashboard-title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
-  }
-  
-  .course-grid {
+}
+
+.course-grid {
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
-  
-  .course-card {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minimum size */
+    flex: 1; /* Allow this section to grow and fill the available space */
+    overflow-y: auto; /* Enable scrolling if necessary */
+}
+
+.course-card {
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -25,26 +30,53 @@
     color: inherit;
     overflow: hidden;
     transition: box-shadow 0.3s;
-  }
-  
-  .course-card:hover {
+    position: relative;
+    aspect-ratio: 1; /* Makes the card square */
+    padding: 10px; /* Adjust padding */
+    display: flex;
+    flex-direction: column; /* Stack the image and content */
+}
+
+.course-image {
+    width: 100%; /* Full width */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Cover the space while maintaining aspect ratio */
+}
+
+.course-card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .course-content {
-    padding: 16px;
-  }
-  
-  .course-content h2 {
+}
+
+.course-content {
+    display: flex;
+    flex-direction: column; /* Stack card content vertically */
+    justify-content: center; /* Center content */
+    height: 100%; /* Full height for content */
+}
+
+.course-content h2 {
     font-size: 18px;
     font-weight: bold;
     margin: 0;
     color: #1a73e8; /* Google Classroom blue */
-  }
-  
-  .course-content p {
+}
+
+.course-content p {
     font-size: 14px;
     color: #5f6368; /* Google Classroom grey */
-  }
-  
-  
+}
+
+.view-all-button {
+    margin-top: 20px; /* Space from the course grid */
+    padding: 10px 20px;
+    background-color: #1a73e8; /* Button color */
+    color: #F7ECE1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.view-all-button:hover {
+    background-color: #155ab6; /* Darker shade on hover */
+}

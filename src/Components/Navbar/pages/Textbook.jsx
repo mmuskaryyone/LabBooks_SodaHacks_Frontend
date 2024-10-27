@@ -2,32 +2,17 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import "./Textbook.css";
 
-// Updated course content with placeholder images
 const courseContent = {
   1: {
-    title: "CSE110 – Principles of Programming",
+    title: "PyBooks – Jupyter Notebooks",
     dueDate: "Feb 8th, 2025",
     sections: [
       {
         id: 1,
-        title: "Intro to Computer Science",
-        description: "An introduction to fundamental concepts of computer science.",
+        title: "Blank",
+        description: "Blank",
         completed: true,
         imageUrl: "https://via.placeholder.com/600x338?text=Intro+to+CS"
-      },
-      {
-        id: 2,
-        title: "Data Types, Expressions & Variables (Part 1)",
-        description: "Learn about data types, variables, and expressions in programming.",
-        completed: true,
-        imageUrl: "https://via.placeholder.com/600x338?text=Data+Types+and+Variables"
-      },
-      {
-        id: 3,
-        title: "Methods (Part 1)",
-        description: "Introduction to methods in programming.",
-        completed: false,
-        imageUrl: "https://via.placeholder.com/600x338?text=Methods+Part+1"
       }
     ]
   }
@@ -42,7 +27,6 @@ const Textbook = () => {
 
   return (
     <div className="textbook-page">
-      {/* Sidebar */}
       <aside className="textbook-sidebar">
         <h2 className="sidebar-title">{course.title}</h2>
         <div className="sidebar-info">
@@ -55,7 +39,6 @@ const Textbook = () => {
         </div>
       </aside>
 
-      {/* Main Content */}
       <div className="textbook-container">
         <h1 className="section-header">{course.title}</h1>
         {course.sections.length ? (
@@ -67,16 +50,11 @@ const Textbook = () => {
                 <div className="completion-status">
                   {section.completed ? "Completed" : "Not Completed"}
                 </div>
-                {/* Button to view detailed module content */}
                 <Link to={`/module/${section.id}`} className="view-module-button">
                   View Module
                 </Link>
               </div>
-              <img
-                src={section.imageUrl}
-                alt={section.title}
-                className="textbook-image"
-              />
+              <img src={section.imageUrl} alt={section.title} className="textbook-image" />
             </div>
           ))
         ) : (
@@ -88,4 +66,3 @@ const Textbook = () => {
 };
 
 export default Textbook;
-class

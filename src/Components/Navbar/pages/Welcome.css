@@ -1,0 +1,21 @@
+/* src/components/Welcome.css */
+
+.welcome {
+    background-color: #8D86C9; /* Match your navbar color or another preferred color */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px; /* Spacing below the welcome section */
+    width: 100%; /* Full width */
+}
+
+.welcome h1 {
+    font-size: 24px; /* Make sure the font size is appropriate */
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-size: 16px;
+    margin: 0; /* Remove default margin */
+}

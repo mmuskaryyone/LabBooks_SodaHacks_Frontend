@@ -8,8 +8,8 @@ const Navbar = () => (
   <div className="navbar">
     <img src={logo} alt="Logo" className="logo" />
     <ul>
+    <li><Link to="/dashboard">PyBooks</Link></li>
       <li><Link to="/dashboard">Dashboard</Link></li>
-      <li><Link to="/textbook">Textbook</Link></li>
     </ul>
   </div>
 );
