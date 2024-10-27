@@ -16,6 +16,8 @@ The biggest challenge we ran into was making sure python was running within the 
 
 ## Accomplishments that we're proud of
 
+The accomplishments we are proud of the fact that we were able to make python run on the browser, got JWT authentication, and integrate React successfully with Django.
+
 ## What we learned
 
 The main things we learned was how to use React properly to make aesthetic pages within our software, how to use pyodide to make sure that python runs into the browser, and how to use Django to make an interactive backend that has sufficient functionality on all ends.
