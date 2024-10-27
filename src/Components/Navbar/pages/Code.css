@@ -1,0 +1,97 @@
+/* Basic Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main module container */
+  .module-page {
+    padding: 20px;
+    background-color: #F7ECE1; /* Light background color */
+    min-height: 100vh; /* Full height */
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #333;
+  }
+  
+  /* MCQ Block styles */
+  .mcq-block {
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for MCQ block */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside the block */
+  }
+  
+  /* Text block styles */
+  .text-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff; /* White background for text block */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Python code execution area */
+  .python-execution {
+    margin-top: 20px;
+  }
+  
+  /* Increase the size of the textarea for better typing experience */
+  #python-source {
+    width: 100%;         /* Full width */
+    height: 200px;      /* Increased height */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: both;       /* Allow resizing both horizontally and vertically */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+    font-size: 1rem;    /* Set font size */
+  }
+  
+  /* Output log styles */
+  #output-log {
+    height: 150px; /* Fixed height */
+    overflow-y: scroll; /* Scrollable for overflow */
+    background: #f0f0f0; /* Light grey background */
+    padding: 10px; /* Padding inside the output log */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Space above */
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    margin-right: 10px; /* Space between buttons */
+    cursor: pointer; /* Pointer on hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Navigation button styles */
+  .module-button {
+    display: inline-block; /* Block display for better styling */
+    margin-top: 20px; /* Space above */
+    padding: 10px 20px; /* Padding */
+    background-color: #28a745; /* Success color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .module-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  
